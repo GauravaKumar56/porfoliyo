@@ -117,14 +117,14 @@ header,
     height: 60px;
 
     object-fit: contain;
-   border-radius: 50%;
+    border-radius: 50%;
     display: block;
 }
 
 .logo h2,
 .logo span {
     margin-left: 10px;
-
+    margin-top: -10px;
     font-size: 30px;
     font-weight: 700;
 
@@ -779,7 +779,7 @@ header nav a:hover,
     gap: 7px;
 }
 
-.hh{
+.hh {
     font-size: 20px;
 }
 
@@ -801,7 +801,7 @@ header nav a:hover,
     font-size: 27px;
 }
 
-.about-values p{
+.about-values p {
     margin: 0;
 
 }
@@ -817,11 +817,11 @@ header nav a:hover,
     padding: 11px 15px;
 
     border: 1px solid #8b5cf6;
- background-color: #8b5cf6;
+    background-color: #8b5cf6;
     color: #fff;
 
     border-radius: 6px;
-   font-size: 14px;
+    font-size: 14px;
     cursor: pointer;
 }
 
@@ -829,8 +829,8 @@ header nav a:hover,
     transform: translateY(-3px);
     box-shadow:
         0 0 20px rgba(139, 92, 246, .2);
-       
-        transition: 0.2s ease;
+
+    transition: 0.2s ease;
 }
 
 /* =========================================================
@@ -864,7 +864,7 @@ header nav a:hover,
 .skills-title i {
     color: #8b5cf6;
 
-    font-size:30px;
+    font-size: 30px;
 }
 
 .skills-title h2 {
@@ -1366,8 +1366,7 @@ header nav a:hover,
 }
 
 .footer-social h4 {
-    font-size: 19
-    px;
+    font-size: 19 px;
 
     margin-bottom: 10px;
 }
@@ -1552,7 +1551,7 @@ header nav a:hover,
         gap: 12px;
     }
 
- 
+
 
     .about-section>.about i {
         color: #7c3aed;
@@ -1571,7 +1570,7 @@ header nav a:hover,
 
         color: #b9c0d2;
 
-        font-size: 14px;
+        font-size: 13px;
 
         line-height: 1.7;
 
@@ -1820,13 +1819,20 @@ header nav a:hover,
         overflow-x: hidden !important;
     }
 
-       .pp{
+
+    .mobile-menu
+    i {
+        font-size: 19px;
+    }
+
+    .mmm {
+        font-size: 12px;
+    }
+
+    .hatbtn {
         display: none;
     }
 
-    .hatbtn{
-        display: none;
-    }
 
     /* =====================================================
        HEADER
@@ -2674,8 +2680,8 @@ header nav a:hover,
     }
 
     .logo img {
-        width:35% !important;
-      border-radius: 50% !important;
+        width: 35% !important;
+        border-radius: 50% !important;
     }
 
     .logo h2,
@@ -2684,7 +2690,7 @@ header nav a:hover,
         margin-top: -10px !important;
     }
 
-    .pp{
+    .pp {
         font-size: 10px !important;
         margin-left: -85px !important;
         margin-top: 20px !important;
