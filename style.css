@@ -743,7 +743,7 @@ header nav a:hover,
 .about-description {
     color: #aeb4c8;
 
-    font-size: 17px;
+    font-size: 19px;
 
     line-height: 20px;
 
@@ -1552,6 +1552,8 @@ header nav a:hover,
         gap: 12px;
     }
 
+ 
+
     .about-section>.about i {
         color: #7c3aed;
 
@@ -1818,6 +1820,13 @@ header nav a:hover,
         overflow-x: hidden !important;
     }
 
+       .pp{
+        display: none;
+    }
+
+    .hatbtn{
+        display: none;
+    }
 
     /* =====================================================
        HEADER
@@ -2160,7 +2169,7 @@ header nav a:hover,
     }
 
     .about h2 {
-        font-size: 25px;
+        font-size: 17px;
 
         white-space: nowrap;
     }
