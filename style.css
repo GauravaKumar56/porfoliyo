@@ -1432,6 +1432,23 @@ header nav a:hover,
     gap: 10px;
 }
 
+@media (min-width: 425px) {
+
+    .pp {
+        font-size: 14px;
+        margin-top: 25px;
+        margin-left: -85px;
+        white-space: nowrap;
+    }
+
+    .about-description {
+        font-size: 1px;
+    }
+   .footer{
+
+   }
+
+}
 
 /* =========================================================
    TABLET
@@ -1820,8 +1837,7 @@ header nav a:hover,
     }
 
 
-    .mobile-menu
-    i {
+    .mobile-menu i {
         font-size: 19px;
     }
 
