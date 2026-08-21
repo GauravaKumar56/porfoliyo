@@ -98,7 +98,6 @@ header,
     z-index: 9999;
 }
 
-
 /* =========================================================
    LOGO
 ========================================================= */
@@ -243,7 +242,6 @@ header nav a:hover,
 
 .talk-btn {
     display: inline-flex;
-
     align-items: center;
     justify-content: center;
 
@@ -1432,7 +1430,7 @@ header nav a:hover,
     gap: 10px;
 }
 
-@media (min-width: 425px) {
+@media (min-width: 360px) {
 
     .pp {
         font-size: 14px;
@@ -1444,98 +1442,9 @@ header nav a:hover,
     .about-description {
         font-size: 1px;
     }
-   .footer{
-
-   }
 
 }
 
-/* =========================================================
-   TABLET
-========================================================= */
-
-@media (min-width: 701px) and (max-width: 1100px) {
-
-    header {
-        padding: 0 4%;
-    }
-
-    .developer-text {
-        display: none;
-    }
-
-    header nav {
-        gap: 18px;
-
-        margin-right: 20px;
-    }
-
-    header nav a {
-        font-size: 13px;
-    }
-
-    .hero-content {
-        left: 5%;
-
-        width: 43%;
-    }
-
-    .hero-content .hero-name {
-        font-size: 48px;
-    }
-
-    .hero-content .hero-role {
-        font-size: 30px;
-    }
-
-    .hero-content .hero-developer {
-        font-size: 32px;
-    }
-
-    .hero-content .hero-description {
-        font-size: 13px;
-    }
-
-    .hero-image {
-        right: 4%;
-
-        width: 46%;
-
-        height: 560px;
-    }
-
-    .about-section {
-        width: 46%;
-
-        margin-left: 3%;
-    }
-
-    .skills-section {
-        width: 46%;
-
-        margin-right: 3%;
-    }
-
-    .projects-container {
-        grid-template-columns:
-            repeat(3, 1fr);
-    }
-
-    .services-grid {
-        grid-template-columns:
-            repeat(2, 1fr);
-    }
-
-    .footer-container {
-        grid-template-columns:
-            repeat(2, 1fr);
-    }
-}
-
-
-/* =========================================================
-   DESKTOP ABOUT + SKILLS SIDE BY SIDE
-========================================================= */
 
 @media (min-width: 701px) {
 
@@ -2659,7 +2568,7 @@ header nav a:hover,
    SMALL MOBILE
 ========================================================= */
 
-@media (max-width: 400px) {
+@media (max-width: 360px) {
 
     .hero-content .hero-name {
         font-size: 36px !important;
@@ -2681,6 +2590,7 @@ header nav a:hover,
     .project-image {
         width: 95px;
     }
+ 
 }
 
 
