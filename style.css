@@ -178,7 +178,7 @@ header nav,
     display: flex;
     align-items: center;
 
-    gap: 55px;
+    gap: 35px;
 
     margin-left: auto;
     margin-right: 55px;
@@ -212,16 +212,13 @@ header nav a:hover,
     display: flex;
     align-items: center;
 
-    gap: 10px;
+    gap: 20px;
 
     flex-shrink: 0;
 }
 
 .header-right i {
-    display: flex;
-    
-    padding: 10px;
-padding-left: -130px;
+    padding: 20px;
 }
 
 .moonfaa {
@@ -1941,22 +1938,15 @@ padding-left: -130px;
 
     .mobile-menu a {
         width: 100%;
-        height: auto ;
-        min-height: 0 ;
-        max-height: none ;
-
+        height: 40px;
         display: flex;
 
         align-items: center;
 
-        justify-content: flex-start ;
 
         gap: 11px;
+ 
 
-        /* IMPORTANT FIX */
-      
-
-        margin: 0 ;
 
         color: #ddd;
 
@@ -1964,12 +1954,7 @@ padding-left: -130px;
 
         font-size: 11px;
 
-        line-height: 1.2;
-
         border-radius: 7px;
-
-        /* Prevents links from stretching */
-        flex: 0 0 auto ;
     }
 
     .mobile-menu a i {
@@ -2549,7 +2534,7 @@ padding-left: -130px;
 
         display: grid;
 
-        grid-template-columns: 1fr;
+          grid-template-columns:1.5fr 1.5fr 1.5fr;
 
         gap: 10px;
 
