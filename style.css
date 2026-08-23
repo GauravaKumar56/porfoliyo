@@ -1464,27 +1464,75 @@ header nav a:hover,
 }
 
 
-/* =========================================================
-   EXTRA
-========================================================= */
+/* ================= FOOTER ================= */
 
-@media (min-width: 360px) {
-
-    .pp {
-        font-size: 14px;
-
-        margin-top: 25px;
-
-        margin-left: -85px;
-
-        white-space: nowrap;
-    }
-
-    .about-description {
-        font-size: 1px;
-    }
+.footer{
+    margin-top:35px;
+    background:
+        linear-gradient(180deg,rgba(6,11,22,.86),rgba(3,6,15,.98));
+    border-top:1px solid rgba(255,255,255,.08);
+    box-shadow:0 -25px 70px rgba(0,0,0,.20);
 }
 
+.footer-container{
+    padding:42px 6% 28px;
+    gap:35px;
+}
+
+.footer-about h3{
+    font-size:18px;
+    letter-spacing:.05em;
+    background:linear-gradient(90deg,#c4b5fd,#60a5fa);
+    -webkit-background-clip:text;
+    background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.footer-about p,
+.footer-item p{
+    color:#8792a8;
+}
+
+.contact-btn{
+    border-radius:11px;
+    padding:10px 15px;
+    box-shadow:0 8px 22px rgba(79,70,229,.18);
+}
+
+.footer-item > i{
+    width:30px;
+    height:30px;
+    display:grid;
+    place-items:center;
+    border-radius:9px;
+    background:rgba(124,58,237,.09);
+    border:1px solid rgba(139,92,246,.15);
+}
+
+.social-links a{
+    width:42px;
+    height:42px;
+    border-radius:11px;
+    background:rgba(255,255,255,.035);
+    border:1px solid rgba(255,255,255,.08);
+}
+
+.social-links a:hover{
+    background:linear-gradient(135deg,#7c3aed,#2563eb);
+    border-color:transparent;
+    box-shadow:0 10px 25px rgba(79,70,229,.22);
+}
+
+.footer-bottom{
+    padding:13px 6%;
+    border-top:1px solid rgba(255,255,255,.055);
+}
+
+.footer-bottom p,
+.footer-bottom a{
+    color:#687389;
+    font-size:12px;
+}
 
 /* =========================================================
    DESKTOP ABOUT + SKILLS
@@ -1927,7 +1975,7 @@ header nav a:hover,
         transform:
             translateY(0);
     }
-
+about-values
     #menu-toggle:checked ~ .menu-icon {
         color: #fff;
 
@@ -2186,7 +2234,7 @@ header nav a:hover,
 
         flex-direction: column;
 
-        gap: 13px;
+        gap: 17px;
     }
 
     .about-labels div {
@@ -2519,145 +2567,63 @@ header nav a:hover,
     }
 
 
-    /* =====================================================
-       FOOTER MOBILE
-    ===================================================== */
-
-    .footer {
-        margin-top: 10px;
-
-        overflow: hidden;
+        /* Footer */
+    .footer{
+        margin-top:20px;
     }
 
-    .footer-container {
-        width: 100%;
-
-        display: grid;
-
-          grid-template-columns:1.5fr 1.5fr 1.5fr;
-
-        gap: 10px;
-
-        padding: 15px 15px 10px;
+    .footer-container{
+        grid-template-columns:1fr 1fr;
+        gap:20px 12px;
+        padding:27px 15px 18px;
     }
 
-    .footer-about h3 {
-        font-size: 15px;
-
-        margin-bottom: 4px;
+    .footer-about{
+        grid-column:1/-1;
     }
 
-    .footer-about p {
-        font-size: 9px;
-
-        line-height: 14px;
-
-        margin-bottom: 7px;
+    .footer-about h3{
+        font-size:15px;
     }
 
-    .contact-btn {
-        padding: 9px 13px;
-
-        font-size: 9px;
+    .footer-about p{
+        font-size:10px;
+        line-height:1.6;
     }
 
-    .footer-item {
-        margin-bottom: 7px;
-
-        gap: 9px;
+    .footer-item h4{
+        font-size:10px;
     }
 
-    .footer-item > i {
-        margin-top: 2px;
-
-        font-size: 12px;
+    .footer-item p{
+        font-size:9px;
     }
 
-    .footer-item h4 {
-        font-size: 10px;
-
-        margin-bottom: 2px;
+    .footer-social h4{
+        font-size:12px;
     }
 
-    .footer-item p {
-        font-size: 9px;
-
-        line-height: 15px;
-
-        overflow-wrap: anywhere;
+    .social-links{
+        gap:6px;
     }
 
-    .footer-social h4 {
-        font-size: 12px;
-
-        margin-bottom: 6px;
+    .social-links a{
+        width:34px;
+        height:34px;
+        font-size:14px;
     }
 
-    .social-links {
-        gap: 5px;
-    }
-
-    .social-links a {
-        width: 30px;
-        height: 30px;
-
-        font-size: 15px;
-    }
-
-    .footer-bottom {
-        padding: 8px 10px;
-
-        flex-direction: column;
-
-        gap: 4px;
-
-        text-align: center;
+    .footer-bottom{
+        padding:10px 12px;
+        flex-direction:column;
+        gap:5px;
+        text-align:center;
     }
 
     .footer-bottom p,
-    .footer-bottom a {
-        font-size: 8px;
+    .footer-bottom a{
+        font-size:8px;
     }
-
-    .footer-bottom div {
-        display: flex;
-
-        gap: 8px;
-
-        flex-wrap: wrap;
-
-        justify-content: center;
-    }
-}
-
-
-/* =========================================================
-   SMALL MOBILE
-========================================================= */
-
-@media (max-width: 360px) {
-
-    .hero-content .hero-name {
-        font-size: 36px;
-    }
-
-    .hero-content .hero-role {
-        font-size: 21px;
-    }
-
-    .hero-content .hero-developer {
-        font-size: 29px;
-    }
-
-    .project-card {
-        grid-template-columns:
-            95px 1fr;
-    }
-
-    .project-image {
-        width: 95px;
-    }
-}
 
 
 /* =========================================================
@@ -2715,4 +2681,4 @@ header nav a:hover,
 
         padding-right: 12px;
     }
-}
+}}
