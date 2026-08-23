@@ -865,7 +865,7 @@
 
          flex-direction: column;
 
-         gap: 17px;
+         gap: 13px;
      }
 
      .about-labels div {
@@ -2342,13 +2342,13 @@
 
              flex-direction: column;
 
-             gap: 13px;
+             gap: 17px;
          }
 
          .about-labels div {
              height: 18px;
 
-             gap: 5px;
+             gap: 1px;
          }
 
          .about-labels i {
@@ -2703,7 +2703,7 @@
          }
 
          .footer-container{
-        grid-template-columns:1fr 1fr;
+        grid-template-columns:1fr .6fr;
         gap:20px 12px;
         padding:27px 15px 18px;
     }
